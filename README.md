@@ -23,7 +23,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 > Internet: Connectionless communication. addressing, routing, IPSec, etc.  
 > Link/Network Access: Provides access to physical network. ARP, OSPF, MAC, Ethernet, WiFi, Tunnels, etc.  
 
-1.2 Describe the operation of the following:
+1.2 Describe the operation of the following:  
 1.2a IP
 > Delivers packets based on IP addresses
 1.2b TCP
@@ -33,7 +33,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 1.2d ICMP
 > Message protocol, error sending over TCP/UDP
 
-1.2 Describe the operation of these network services:
+1.3 Describe the operation of these network services:  
 1.3a ARP
 > Discovers link layer addresses (MAC addresses) given an IP address
 1.3b DNS
@@ -41,7 +41,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 1.3c DHCP
 > Assigns IP addresses so hosts can communicate
 
-1.4 Describe the basic operation of these network services:
+1.4 Describe the basic operation of these network services:  
 1.4a Router
 > Routes packets based on information in the packet header and its routing table or policy
 1.4b Switch
@@ -55,7 +55,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 1.4f Wireless LAN Controller
 > Configures and manages wireless access points
 
-1.5 Describe the functions of these network security systems as deployed on the host, network, or the cloud:
+1.5 Describe the functions of these network security systems as deployed on the host, network, or the cloud:  
 1.5a Firewall
 > A host-based firewall generally focuses on malware and virus prevention and detection. A network-based firewall generally focuses on ingress and egress traffic, often times imposing a set of rules the traffic must abide by. A cloud-based firewall is generally used to protect cloud infrastructure and servers that exist in a more dynamic environment with a wider perimeter.
 1.5b Cisco Intrusion Prevention System (IPS)
@@ -93,7 +93,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 2.1 Describe the principles of the defense in depth strategy
 > The defense in depth strategy proposes the implementation of a redundant, overlapping defense system so the failure of one defensive layer will likely be backed up by another.
 
-2.2 Compare and contrast these concepts:
+2.2 Compare and contrast these concepts:  
 2.2a Risk
 > Risk is the probability that a vulnerability may be exploited by a threat
 2.2b Threat
@@ -103,7 +103,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 2.2d Exploit
 > An exploit is any methodology that is at risk of being utilized by a threat against a vulnerability
 
-2.3 Describe these terms:
+2.3 Describe these terms:  
 2.3a Threat Actor
 > a person or entity that is reponsible for the violation of safety or security
 2.3b Run Book Automation
@@ -119,7 +119,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 2.3g PHI
 > Personal/Protected Health Information i.e. medical test results, diagnoses, medical history. Protected under HIPAA
 
-2.4 Describe these security terms:
+2.4 Describe these security terms:  
 2.4a Principle of least privilege
 > Users should have the least amount of privilege/access necessicary
 2.4b  Risk Scoring / Risk Weighing
@@ -129,7 +129,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 2.4d Risk Assessment
 > The identification and analysis of possible risk (giving a risk score)
 
-2.5 Compare and contrast these access control models:
+2.5 Compare and contrast these access control models:  
 2.5a Discretionary Access Control (DAC)
 > Access is granted/denied based on an access policy created by the owner of the entity/location in question
 2.5b Mandatory Access Control (MAC)
@@ -137,7 +137,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 2.5c Nondiscretionary Access Control
 > Access is granted/denied uniformly across all users
 
-2.6 Compare and contrast these terms:
+2.6 Compare and contrast these terms:  
 2.6a Network and host antivirus
 > host antivirus software is generally designed to prohibit items based on virus definitions, wheras network antivirus considers the propogation of viruses across the network.
 2.6b Agentless and agent-based protections
@@ -145,7 +145,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 2.6c SIEM and log collection
 > Log collection documents occurances and is a part of SIEM. Based on activity and log history SIEM tools act to prevent issues and respond to security events that were logged.
 
-2.7 Describe these concepts:
+2.7 Describe these concepts:  
 2.7a Asset Management
 > The management of assets such as servers, routers, etc. Providing asset management for a customer may entail monitoring and incident response for specific devices.
 2.7b Configuration Management
