@@ -3,7 +3,7 @@ Personal training repository for the CCNA Cyber Ops certification https://www.ci
 
 ## Cisco Security Fundamentals (210-250) 
 
-Below is the list of exam topics, which can also be found [here] (https://learningcontent.cisco.com/cln_storage/text/cln/marketing/exam-topics/210-250-secfnd.pdf), along with my answers (which may very well be incorrect - you have been warned :p).
+Below is the list of exam topics, which can also be found [here](https://learningcontent.cisco.com/cln_storage/text/cln/marketing/exam-topics/210-250-secfnd.pdf), along with my answers (which may very well be incorrect - you have been warned :p).
 
 ### 1.0 Networking Concepts
 
