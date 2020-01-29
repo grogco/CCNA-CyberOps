@@ -157,7 +157,7 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 2.7e Vulnerability Management
 > Vulnerability management is needed for anyting from a single application to a large enterprise network. Two main parts of vulnerability management is the regular checking for vulnerabilities and the mitigation of vulnerabilities that are found or exploited.
 
-3.0 Cryptography
+### 3.0 Cryptography
 3.1 Describe the use of a hash algorithm
 > Hash algorithms are used to map given data into a hash value, which is of fixed size and stored in a hash table. Storing data in this fashion is more secure than storing information in pain text for obvious reasons. Hash tables are more efficient on storage space due to their fixed size, and retrivial of a hash value is computationally more efficient than retrieving an unhashed value. The efficiency of hash tables makes them useful for building large data caches. The security of the hash algorithm proves useful for securely storing data. The efficient storage size and uniform characteristics of a hash value makes it useful for comparing data.
 
