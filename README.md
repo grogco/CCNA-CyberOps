@@ -173,11 +173,79 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 3.5 Describe the operation of a PKI
 > Public Key Infrastructure uses a Certificate Authority and a Registration Authority to verify the identity of the public key holder.
 
-3.6 Describe the security impact of these commonly used hash algorithms:
+3.6 Describe the security impact of these commonly used hash algorithms:  
 3.6a MD5
+> Cryptographically insecure and can have collisions. Not ideal for security or usage that relies on collision resistance 
 3.6b SHA-1
+> SHA is designed for cryptographic security - it produces an irreversible and unique 160-bit hash
 3.6c SHA-256
+> Improvement over SHA-1, 256-bit hash
 3.6d SHA-512
+> Improvement over SHA-256, 512-bit hash
 
-3.7 Describe the security impact of these commonly used encryption algorithms and secure communications protocols:
+3.7 Describe the security impact of these commonly used encryption algorithms and secure communications protocols:  
 3.7a DES
+> Symmetric algorithm that uses a 56-bit block cypher. Has fallen prone to brute force attacks with the advances in computing power
+3.7b 3DES
+> Like DES but with a key 3x as long; not as vulnerable to brute force attacks 
+3.7c AES
+> The successor of DES; has a 128-bit block cypher
+3.7d AES256-CTR
+> AES with a 256-bit stream cypher in "integer counter" mode which improved speed
+3.7e RSA
+> Public key encryption standard used for sending data over public networks or for digital signatures
+3.7f DSA
+> Public key encryption only used for digital signatures
+3.7g SSH
+> File transfer protocol complete with data-in-motion encryption, server/client quthentication, and data integrity checks. Has more functionality than SSL/TLS i.e. terminal management.
+3.7h SSL/TLS
+> File transfer protocol complete with data-in-motion encryption, server/client quthentication, and data integrity checks. Employs X.509 digital certificates
+
+3.8 Describe how the success or failure of a cryptographic exchange impacts security investigation
+>  If a cryptographic exchange fails it is likely that the integrity of the data has been compromised
+
+3.9 Describe these items in regards to SSL/TLS:  
+3.9a Cipher-suite
+> A combination of ciphers used to negotiate security settings during the SSL/TLS handshake
+3.9b X.509 certificates
+> The standard of formatting public key certificates, which are used in SSL/TLS connections
+3.9c Key exchange
+> A public key is exchanged as part of the SSL/TLS handshake
+3.9d Protocol version
+> ?
+3.9e PKCS
+> Public Key Cryptography standards define the precesses behind encryption and signatures
+
+### 4.0 Host-Bases Analysis
+
+4.1 Define these terms as they pertain to Microsoft Windows:  
+4.1a Processes
+> An instance of a program that is being executed
+4.1b Threads
+> A series of instructions that can be scheduled for execution by the operating system
+4.1c Memory Allocation
+> Setting aside memory to be used for a chosen purpose (not sure how this particularly pertains to Windows)
+4.1d Windows Registry
+> Database that stores the kernel, device drivers, and other settings for the Windows operating system, as well as settings for applications that choose to use the registry.
+4.1e WMI
+> ?
+4.1f Handles
+> A reference value to a memory address (a pointer or integer) that provides a layer of abstraction from memory addresses to the user.
+4.1g Services
+> In Windows a service is s program that operates in the background, similar to a daemon in UNIX
+
+4.2 Define these terms as they pertain to Linux:  
+4.2a Processes
+> A process represents a running program. It's the abstraction through which memory, processor time, and I/O resources can be managed and monitors.
+4.2b Forks
+> The Fork command creates a copy of a process with a new process ID. Since there are no UNIX system calls to start a new program from scratch, Fork must be initiated to create a new process which can then be used to execute the new program.
+4.2c Permissions
+> Linux permissions determine what modifications can be made to a file and by whom. The permissions for each file are indicated by three sets (owner, group, everyone else) of three permission bits (read, write, execute).
+4.2d Symlinks
+> Symbolic links point to a file by name, rather than pathname
+4.2e Daemon
+> Processes invoked by the kernel that run at startup and in the background
+
+4.3 Describe the functionality of these endpoint technologies in regards to security monitoring:  
+4.3a Host-based intrusion detection 
+4.3b Antimalware and antivirus
