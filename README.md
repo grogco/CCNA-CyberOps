@@ -327,11 +327,14 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 ##### 6.3a SQL Injection
 ``` Entering a SQL command into a field that expects a different type of input can allow an attacker to run malicious code. For example, if a website recieves input with this code: ```
 > myInput = getRequestString("userInput");  
+
 > mySQLcode = "SELECT * FROM myTable WHERE myValue = " + userInput;  
+
 ``` it probably expects userInput to be a basic string entered by the user. If an attacker was to enter the following into userInput: ```  
+
 > " x OR 1 = 1; DROP TABLE myTable "  
-``` all values would be returned and the table would be deleted; probably not the intended usage.
-```
+
+``` all values would be returned and the table would be deleted; probably not the intended usage.```
 #####6.3b Command Injections
 #####6.3c Cross-site Scripting
 ``` Modifying trusted scripts or adding malicious scripts to a trusted webpage, presenting the unsafe scripts to another user under the guise that they are part of the trusted site. ```
