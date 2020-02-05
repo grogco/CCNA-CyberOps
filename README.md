@@ -335,8 +335,8 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 > " x OR 1 = 1; DROP TABLE myTable "  
 
 ``` all values would be returned and the table would be deleted; probably not the intended usage.```
-#####6.3b Command Injections
-#####6.3c Cross-site Scripting
+##### 6.3b Command Injections
+##### 6.3c Cross-site Scripting
 ``` Modifying trusted scripts or adding malicious scripts to a trusted webpage, presenting the unsafe scripts to another user under the guise that they are part of the trusted site. ```
 
 #### 6.4 Describe these attacks: 
