@@ -289,4 +289,81 @@ Below is the list of exam topics, which can also be found [here](https://learnin
 
 #### 5.2 Describe these types of data used in security monitoring:  
 
+#### 5.3 Describe these concepts as they relate to security monitoring:
+##### 5.3a Access Control List
+##### 5.3b NAP/PAT
+##### 5.3c Tunneling
+##### 5.3d TOR
+##### 5.3e Encryption
+##### 5.3f P2P
+##### 5.3g Encapsulation
+##### 5.3h Load Balancing
+
+#### 5.4 Describe these NextGen IPS event types
+##### 5.4a Connection Event
+##### 5.4b Intrusion Event
+##### 5.4c Host or Endpoint Event
+##### 5.4d Network Discovery Event
+##### 5.4e NetFlow Event
+
+#### 5.5 Describe the function of these protocols in the context of security monitoring:
+##### 5.5a DNS
+##### 5.5b NTP
+##### 5.5c SMTP/POP/IMAP
+##### 5.5d HTTP/HTTPS
+
+### 6.0 Attack Methods
+#### 6.1 Compare and contrast an attack surface and vulnerability
+``` An attack surface is the part of the environment that an attacker attempts to exploit. Vulnerabilities may exist on the attack surface, and if an attacker is to find them, the attack surface could become compromised.```
+#### 6.2 Describe these network attacks:
+##### 6.2a Denial of Service
+``` An attack that floods a network (or a service or device) with traffic to cause congestion. Common DoS attacks spam UDP traffic or TCP SYN packets to overwhelm a router or server. There are also DoS attacks that utilize vulnerabilities or unexpected types of traffic to shut down a service. ```
+##### 6.2b Distributed Denial of Service
+``` DDoS attacks are DoS attacks that come from multiple sources. DDoS attacks can be carried out by multiple compromised computers in a botnet, or random uncompromised computers can be used in a reflective attack where the attacker spoofs the target's IP address and requests responses from various places. Since the source IP appears to be the target machine, responses will be sent to the target, and overwhelm it if done effectively. ```
+##### 6.2c Man in the Middle
+``` MITM attacks allow an attacker to passively observe network traffic, or in some cases, modify traffic passing through the network. A common example would be impersonating a router - if you can fool a host into thinking that you are the router, then  you can recieve its data and pass it on to the actual router placing yourself "in the middle" where you can read the traffic, and modify what the host or router sees (as long as it is uncrypted or you can decrypt it...).```
+
+#### 6.3 Describe these web application attacks:
+##### 6.3a SQL Injection
+``` Entering a SQL command into a field that expects a different type of input can allow an attacker to run malicious code. For example, if a website recieves input with this code:
+  myInput = getRequestString("userInput");
+  mySQLcode = "SELECT * FROM myTable WHERE myValue = " + userInput;
+it probably expects userInput to be a basic string entered by the user. If an attacker was to enter the following into userInput:  
+" x OR 1 = 1; DROP TABLE myTable "
+all values would be returned and the table would be deleted; probably not the intended usage.
+```
+#####6.3b Command Injections
+#####6.3c Cross-site Scripting
+``` Modifying trusted scripts or adding malicious scripts to a trusted webpage, presenting the unsafe scripts to another user under the guise that they are part of the trusted site. ```
+
+#### 6.4 Describe these attacks: 
+##### 6.4a Social Engineering
+``` A cyberattack that targets the user, rather than the technology, to extract information or commit some sort of exploitation by misleading someone. ```
+##### 6.4b Phishing
+``` A type of attack that aims to trick the user into falling into the trap - be it downloading malware, sharing information, etc. usually perpetrated in a counterfeit e-mail or message. ```
+##### 6.4c Evasion Methods
+
+#### 6.5 Describe these endpoint-based attacks:
+##### 6.5a Buffer Overflows
+``` Exceeding the buffer size in a section of memory to return information stored in a different, usually inaccessable, area in memory. ```
+##### 6.5b Command and Control (C2)
+##### 6.5c Malware
+##### 6.5d Rootkit
+##### 6.5e Port Scanning
+##### 6.5f Host Profiling
+
+#### Describe these evasion methods:
+##### 6.6a Encryption and tunneling
+##### 6.6b Resource exhaustion
+##### 6.6c Traffic Fragmentation
+##### 6.6d Protocol-level mininterpretation
+##### 6.6e Traffic substitution and Insertion
+##### 6.6f Pivot
+
+#### 6.7 Define privilege escalation
+``` Achieving a higher access profile when exploiting a system, such as escalaiting from user access to root access on a compromised host. ```
+#### 6.8 Compare and contrast remote exploit and a local exploit
+
+
+
 
